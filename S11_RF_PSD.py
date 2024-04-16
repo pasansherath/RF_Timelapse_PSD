@@ -3,16 +3,11 @@ from rfpy_intf_utils import *
 import numpy as np 
 from scipy import signal, fft
 import matplotlib.pyplot as plt
-from scipy import optimize
 import itertools
 from scipy import stats
 import ot
 from hyperopt import fmin, tpe, hp
-from scipy.stats import wasserstein_distance
-from scipy.signal import argrelextrema
 from matplotlib.dates import date2num
-from scipy import interpolate
-import inspect 
 
 
 def write_log(outname, output_folder):
